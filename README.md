@@ -1,2 +1,2 @@
 # WaterGreen
-Sistema de riego controlado por arduino
+Sistema de seguimiento controlado por arduino (indoor.)
