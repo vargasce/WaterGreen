@@ -6,11 +6,10 @@
  */
 
 const express = require('express');
-
+const Humidity = require('../controller/humidity/humidity');
 const router = express.Router();
 
-router.get('login', (req, res) =>{
-  console.log("Acceso a api");
-});
+router.POST('setHumidity', Humidity.setHumidity());
+router.POST('getHumidity', Humidity.getHumidity());
 
 module.exports = router;
